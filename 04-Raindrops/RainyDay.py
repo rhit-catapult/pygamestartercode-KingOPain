@@ -184,7 +184,7 @@ def main():
         cloud.rain()
         for raindrop in cloud.raindrops:
             raindrop.move()
-            raindrop.draw()
+            raindrop.draw()#
             for hero in heroes:
                 if hero.hit_by(raindrop):
                     hero.last_hit_time = time.time()
